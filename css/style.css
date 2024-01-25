@@ -208,3 +208,28 @@ main .img-text{
   width: 300px;
   background-color: #bc378d;
 }
+
+main .esegui-più-operazioni{
+  padding-top: 170px;
+  height: 1285px;
+  max-width: 1000px;
+  background-color: #a200ff;
+}
+
+main .esegui-più-operazioni h2{
+  background-color: #61082b;
+}
+
+/* box-card */
+main .box-card{
+  height: 1085px;
+  max-width: 1000px;
+  background-color: #bbc91d64;
+}
+
+main .card{
+  width: 300px;
+  height: 455px;
+  background-color: #b4d0e7;
+  margin-top: 95px;
+}
