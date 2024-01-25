@@ -102,7 +102,7 @@ header .container-hero{
 /* main */
 .container-main{
   background-color: rgb(224, 171, 56);
-  height: 1465px;
+  height: 1460px;
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 170px;
@@ -118,34 +118,32 @@ main .fatturazione .chois{
 
 .column{
   background-color: #61083964;
-  height: 1290px;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .border-column{
   border: 1px solid #d0d0d3;
 }
 
-main .measure-column{
-  width: 300px;  
-  height: 975px;
-}
-
 main .header-column{
   background-color: #59610864;
   height: 40px;
-  width: 300px;
   align-items: center;
   justify-content: center;
 }
 
-main .body-column{
-  background-color: #375fbc64;
-  height: 935px;
+.measure-menu .header-column{
   width: 300px;
 }
 
-main .body-column .info-column{
+main .body-column{
+  background-color: #bc378d;
+  height: 975px;
+  width: 300px;
+}
+
+.info-column{
   margin: 38px 32px;
   background-color: #b4d0e7;
 }
@@ -161,6 +159,31 @@ main hr{
 }
 
 .info-column.bottom{
-  height: 140px;
   width: 240px;
+}
+
+.first{
+  height: 140px;
+}
+
+.second{
+  height: 320px;
+}
+
+.third{
+  height: 180px;
+}
+
+/* colonna orizzontale */
+main .horizontal-body{
+  background-color: #007bff;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-body .horizontal-info{
+  background-color: #61082b;
+  height: 145px;
+  width: 935px;
 }
