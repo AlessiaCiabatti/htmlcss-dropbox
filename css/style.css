@@ -34,12 +34,8 @@ body{
   display: flex;
 }
 
-.padding-b{
-  padding-bottom: 75px;
-}
-
-.padding-l{
-  padding-left: 330px;
+.margin-b{
+  margin-bottom: 75px;
 }
 
 header .menu{
@@ -82,7 +78,7 @@ header .container-hero{
 }
 
 .elements-hero .title{
-  background-color: #0061ff;
+  background-color: #007bff;
   width: 100%;
   height: 160px;
 }
@@ -101,4 +97,70 @@ header .container-hero{
 .bottom-hero .hero-right{
   background-color: red;
   width: 780px;
+}
+
+/* main */
+.container-main{
+  background-color: rgb(224, 171, 56);
+  height: 1465px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+
+main .main-title{
+  background-color: #a200ff;
+}
+
+main .fatturazione .chois{
+  margin-right: 50px;
+}
+
+.column{
+  background-color: #61083964;
+  height: 1290px;
+  justify-content: space-between;
+}
+
+.border-column{
+  border: 1px solid #d0d0d3;
+}
+
+main .measure-column{
+  width: 300px;  
+  height: 975px;
+}
+
+main .header-column{
+  background-color: #59610864;
+  height: 40px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+main .body-column{
+  background-color: #375fbc64;
+  height: 935px;
+  width: 300px;
+}
+
+main .body-column .info-column{
+  margin: 38px 32px;
+  background-color: #b4d0e7;
+}
+
+.info-column.top{
+  height: 440px;
+  width: 240px;
+}
+
+main hr{
+  width: 50px;
+  margin: 45px 32px 55px;
+}
+
+.info-column.bottom{
+  height: 140px;
+  width: 240px;
 }
