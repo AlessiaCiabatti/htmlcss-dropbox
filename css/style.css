@@ -175,6 +175,7 @@ main hr{
 }
 
 /* colonna orizzontale */
+/* MARGIN NON RIESCO AD USARLO QUA */
 main .horizontal-body{
   background-color: #007bff;
   height: 220px;
@@ -227,9 +228,16 @@ main .box-card{
   background-color: #bbc91d64;
 }
 
+/* MARGIN */
 main .card{
   width: 300px;
   height: 455px;
   background-color: #b4d0e7;
   margin-top: 95px;
+}
+
+main .img-card{
+  height: 205px;
+  width: 300px;
+  background-color: #439ce6;
 }
