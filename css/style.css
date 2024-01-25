@@ -45,7 +45,9 @@ body{
 header .menu{
   background-color: aquamarine;
   height: 80px;
+  width: 100%;
   justify-content: space-between;
+  position: fixed;
 }
 
 header .left{
@@ -67,11 +69,36 @@ header .menu .left,.right{
 
 
 header .container-hero{
-  height: calc(820px - 80px);
+  height: calc(900px - 80px);
   background-color: var(--hero-color);
 }
 
-.container-hero .title{
-  padding-top: 110px;
-  width: 1180px;
+.elements-hero{
+  max-width: 1180px;
+  height: 890px;
+  background-color: rgb(195, 113, 113);
+  margin: 0 auto;
+  padding-top: 190px;
+}
+
+.elements-hero .title{
+  background-color: #0061ff;
+  width: 100%;
+  height: 160px;
+}
+
+.container-hero .bottom-hero{
+  background-color: rgba(0, 0, 0, 0.265);
+  height: 540px;
+}
+
+.bottom-hero .hero-left{
+  background-color: azure;
+  width: 400px;
+  height: 470px;
+}
+
+.bottom-hero .hero-right{
+  background-color: red;
+  width: 780px;
 }
