@@ -38,6 +38,10 @@ body{
   padding-bottom: 75px;
 }
 
+.padding-l{
+  padding-left: 330px;
+}
+
 header .menu{
   background-color: aquamarine;
   height: 80px;
@@ -67,11 +71,7 @@ header .container-hero{
   background-color: var(--hero-color);
 }
 
-.elements-hero{
-  max-width: 1180px;
-  height: 810px;
-  background-color: rgb(195, 113, 113);
-  margin: 0 auto;
+.container-hero .title{
   padding-top: 110px;
+  width: 1180px;
 }
-
