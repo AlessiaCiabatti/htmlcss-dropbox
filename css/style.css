@@ -15,7 +15,7 @@ img{
 }
 
 body{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .small-size{
@@ -35,28 +35,39 @@ body{
 }
 
 .margin-b{
-  margin-bottom: 75px;
+  margin-bottom: 45px;
+}
+
+.line-height{
+  line-height: 25px;
 }
 
 header .menu{
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
   height: 80px;
   width: 100%;
   justify-content: space-between;
   position: fixed;
 }
 
-header .left{
-  background-color: beige;
-  height: 100%;
-  width: 550px;
+header nav ul{
+  list-style: none;
 }
 
-header .right{
-  background-color: rgb(200, 200, 34);
-  height: 100%;
-  width: 490px;
-  justify-content: flex-end;
+header nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+nav img{
+  padding-left: 20px;
+}
+
+.menu .right{
+  padding-right: 20px;
 }
 
 header .menu .left,.right{
@@ -70,39 +81,30 @@ header .container-hero{
 }
 
 .elements-hero{
-  max-width: 1180px;
+  max-width: 1200px;
   height: 890px;
-  background-color: rgb(195, 113, 113);
   margin: 0 auto;
   padding-top: 190px;
 }
 
-.elements-hero .title{
-  background-color: #007bff;
-  width: 100%;
-  height: 160px;
-}
 
-.container-hero .bottom-hero{
-  background-color: rgba(0, 0, 0, 0.265);
-  height: 540px;
+.container-hero h1{
+  font-size: 4.7rem;
 }
 
 .bottom-hero .hero-left{
-  background-color: azure;
-  width: 400px;
+  width: 430px;
   height: 470px;
 }
 
 .bottom-hero .hero-right{
-  background-color: red;
-  width: 780px;
+  width: 1000px;
 }
 
 /* main */
 .container-main{
   background-color: rgb(224, 171, 56);
-  height: 1460px;
+  height: 140px;
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 170px;
@@ -212,32 +214,36 @@ main .img-text{
 
 main .esegui-più-operazioni{
   padding-top: 170px;
-  height: 1285px;
+  height: 1280px;
   max-width: 1000px;
   background-color: #a200ff;
 }
 
 main .esegui-più-operazioni h2{
   background-color: #61082b;
+  margin-bottom: 95px;
 }
 
 /* box-card */
 main .box-card{
-  height: 1085px;
   max-width: 1000px;
-  background-color: #bbc91d64;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-/* MARGIN */
 main .card{
-  width: 300px;
+  width: 295px;
   height: 455px;
   background-color: #b4d0e7;
-  margin-top: 95px;
+  margin-bottom: 77px;
 }
 
 main .img-card{
   height: 205px;
-  width: 300px;
+  width: 295px;
   background-color: #439ce6;
+}
+
+.text-card h3{
+  padding-bottom: 45px;
 }
