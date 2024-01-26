@@ -91,7 +91,7 @@ padding: 7px 16px;
 }
 
 /* hero */
-header .container-hero{
+.container-hero{
   height: calc(900px - 80px);
   background-color: var(--hero-color);
 }
@@ -131,7 +131,7 @@ header .container-hero{
 
 /* main */
 .container-main{
-  height: 140px;
+  
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 170px;
@@ -351,4 +351,6 @@ main .card{
 .container-logo{
   background-color: #686868;
   height: 620px;
+  width: 100%;
+  margin-top: 150px;
 }
