@@ -257,7 +257,7 @@ main .horizontal-body{
 }
 
 .horizontal-info .par{
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .horizontal-info .contatta a{
@@ -294,15 +294,14 @@ main .img-text{
   padding-top: 50px;
 }
 
+/* card */
 main .esegui-più-operazioni{
   padding-top: 170px;
   height: 1280px;
   max-width: 1000px;
-  background-color: #a200ff;
 }
 
 main .esegui-più-operazioni h2{
-  background-color: #61082b;
   margin-bottom: 95px;
 }
 
@@ -316,16 +315,15 @@ main .box-card{
 main .card{
   width: 295px;
   height: 455px;
-  background-color: #b4d0e7;
   margin-bottom: 77px;
 }
 
-main .img-card{
-  height: 205px;
-  width: 295px;
-  background-color: #439ce6;
+.text-card h3{
+  padding-bottom: 30px;
 }
 
-.text-card h3{
-  padding-bottom: 45px;
+
+.text-card p{
+  line-height: 20px;
 }
+/* /card */
