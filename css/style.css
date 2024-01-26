@@ -42,6 +42,15 @@ body{
   line-height: 25px;
 }
 
+.btn{
+  background-color: var(--blu-link);
+  color: white;
+  text-decoration: none;
+}
+
+
+/* header */
+
 header .menu{
   background-color: rgb(255, 255, 255);
   height: 80px;
@@ -74,7 +83,14 @@ header .menu .left,.right{
   align-items: center;
 }
 
+header .right li:last-child{
+  margin-left: 20px;
+}
+header .right li:last-child a{
+padding: 7px 16px;
+}
 
+/* hero */
 header .container-hero{
   height: calc(900px - 80px);
   background-color: var(--hero-color);
@@ -87,7 +103,6 @@ header .container-hero{
   padding-top: 190px;
 }
 
-
 .container-hero h1{
   font-size: 4.7rem;
 }
@@ -97,8 +112,21 @@ header .container-hero{
   height: 470px;
 }
 
+.hero-left .btn-hero{
+  margin: 35px 0 35px;
+}
+
+.hero-left .btn-hero a{
+  padding: 11px 17px;
+}
+
 .bottom-hero .hero-right{
   width: 1000px;
+}
+
+.arrow{
+  font-size: 50px;
+  padding-top: 40px;
 }
 
 /* main */
