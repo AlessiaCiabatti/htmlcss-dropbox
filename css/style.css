@@ -18,12 +18,12 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.small-size{
-  font-size: 1rem;
+main p{
+  font-size: 0.9rem;
 }
 
 .size-h3{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .size-h2{
@@ -35,7 +35,7 @@ body{
 }
 
 .margin-b{
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .line-height{
@@ -126,30 +126,29 @@ header .container-hero{
 
 .arrow{
   font-size: 50px;
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 /* main */
 .container-main{
-  background-color: rgb(224, 171, 56);
   height: 140px;
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 170px;
 }
 
-main .main-title{
-  background-color: #a200ff;
-}
 
 main .fatturazione .chois{
   margin-right: 50px;
 }
 
 .column{
-  background-color: #61083964;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+.column .horizontal-column,i{
+  padding-right: 5px;
 }
 
 .border-column{
@@ -157,7 +156,6 @@ main .fatturazione .chois{
 }
 
 main .header-column{
-  background-color: #59610864;
   height: 40px;
   align-items: center;
   justify-content: center;
@@ -168,14 +166,12 @@ main .header-column{
 }
 
 main .body-column{
-  background-color: #bc378d;
-  height: 975px;
+  height: 970px;
   width: 300px;
 }
 
 .info-column{
   margin: 38px 32px;
-  background-color: #b4d0e7;
 }
 
 .info-column.top{
@@ -183,13 +179,47 @@ main .body-column{
   width: 240px;
 }
 
+.info-column .horizontal-column,h3{
+  padding-bottom: 20px;
+}
+
+.info-column .prezzo p:last-child{
+  color: #686868;
+  padding-top: 20px;
+}
+
+.info-column .info-icona{
+  padding-top: 60px ;
+  padding-bottom: 30px;
+}
+
+.info-column .info-icona p{
+  padding-bottom: 30px;
+}
+
 main hr{
   width: 50px;
-  margin: 45px 32px 55px;
+  margin: 90px 32px 50px;
 }
 
 .info-column.bottom{
   width: 240px;
+}
+
+.info-column .prova a{
+  padding: 14px 26px;
+}
+
+.info-column .acquista{
+  padding-top: 35px;
+}
+
+.info-flag i{
+  color: var(--blu-link);
+}
+
+.info-flag p{
+  padding-top: 20px;
 }
 
 .first{
@@ -205,19 +235,36 @@ main hr{
 }
 
 /* colonna orizzontale */
-/* MARGIN NON RIESCO AD USARLO QUA */
 main .horizontal-body{
-  background-color: #007bff;
   height: 220px;
   justify-content: center;
   align-items: center;
 }
 
 .horizontal-body .horizontal-info{
-  background-color: #61082b;
   height: 145px;
   width: 935px;
 }
+
+
+.horizontal-info{
+  position: relative;
+}
+
+.horizontal-info .contatta{
+  position: absolute;
+  right: 0;
+  top: 13px;
+}
+
+.horizontal-info .par{
+  padding-top: 35px;
+}
+
+.horizontal-info .contatta a{
+  padding: 13px 40px;
+}
+
 /* /colonna orizzontale */
 
 main .entra-in-contatto{
