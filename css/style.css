@@ -56,6 +56,7 @@ header .menu{
   width: 100%;
   justify-content: space-between;
   position: fixed;
+  z-index: 999;
 }
 
 header nav ul{
@@ -295,7 +296,7 @@ main .img-text{
 /* card */
 main .esegui-più-operazioni{
   padding-top: 170px;
-  height: 1280px;
+  /* height: 1280px; */
   max-width: 1000px;
 }
 
@@ -325,3 +326,29 @@ main .card{
   line-height: 20px;
 }
 /* /card */
+
+/* piu di 500.000 team*/
+.third-title{
+  height: 180px;
+  position: relative;
+  margin-top: 120px;
+}
+
+.third-title h2{
+  width: 600px;
+  height: 90px;
+}
+
+.third-title a{
+  position: absolute;
+  bottom: 0;
+  font-size: 0.9rem;
+}
+/* /piu di 500.000 team*/
+
+/* logo */
+
+.container-logo{
+  background-color: #686868;
+  height: 620px;
+}
