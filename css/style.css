@@ -48,7 +48,6 @@ main p{
   text-decoration: none;
 }
 
-
 /* header */
 
 header .menu{
@@ -264,12 +263,10 @@ main .horizontal-body{
 .horizontal-info .contatta a{
   padding: 13px 40px;
 }
-
 /* /colonna orizzontale */
 
 main .entra-in-contatto{
   padding-top: 150px;
-  background-color: #b4d0e7;
   height: 660px;
   max-width: 1000px;
 }
@@ -277,14 +274,24 @@ main .entra-in-contatto{
 main .big-img{
   width: 600px;
   height: 515px;
-  background-color: antiquewhite;
 }
 
 main .img-text{
   margin: 60px 50px;
   height: 285;
-  width: 300px;
-  background-color: #bc378d;
+  width: 270px;
+}
+
+.entra-in-contatto a{
+  font-size: 0.9rem;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 1px black solid;
+}
+
+.entra-in-contatto .trova-un-partner{
+  padding-top: 50px;
 }
 
 main .esegui-più-operazioni{
