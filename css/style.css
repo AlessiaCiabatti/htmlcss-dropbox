@@ -71,7 +71,6 @@ header nav a{
   text-decoration: none;
   color: black;
   font-size: 1rem;
-  justify-content: space-between;
   padding-left: 30px;
 }
 
@@ -90,8 +89,14 @@ header .menu .left,.right{
 header .right li:last-child{
   margin-left: 20px;
 }
+
 header .right li:last-child a{
-padding: 7px 16px;
+  padding: 7px 16px;
+  border-bottom: 0px solid blue;
+}
+
+header a:hover{
+  border-bottom: 5px solid blue;
 }
 
 /* hero */
@@ -402,6 +407,10 @@ main .card{
 .second{
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.logo-designit img{
+  height: 80px;
 }
 
 .second .element{
