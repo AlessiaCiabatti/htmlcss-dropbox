@@ -405,14 +405,7 @@ main .card{
 }
 
 .second .element{
-  height: 355px;
-  width: 520px;
   margin: 55px;
-}
-
-.logo-designit{
-  height: 80px;
-  width: 260px;
 }
 
 .second.square hr{
@@ -421,14 +414,8 @@ main .card{
   width: 105px;
 }
 
-.second.square .text{
-  height: 180px;
-  position: relative;
-}
-
 .text p:nth-child(2){
-  position: absolute;
-  bottom: 0;
+  margin-top: 60px;
 }
 
 .third .mini-square:nth-child(1){
